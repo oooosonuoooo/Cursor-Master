@@ -59,26 +59,3 @@ Precision matters. The app reads the binary metadata of the Windows file to find
 * Installs themes directly to the user space: `~/.icons/`.
 * Auto-generates a **Start Menu Shortcut** (Application Entry).
 * Updates the GNOME/XFCE registry immediately upon application.
-
----
-
-## 📦 Installation
-
-### Prerequisites
-* Kali Linux (or any Debian/Ubuntu-based distro).
-* Python 3.x (Pre-installed on Kali).
-* `sudo` access (for installing backend tools).
-
-### Option 1: Quick Install (Git)
-Open your terminal and run:
-
-```bash
-# 1. Clone the repository
-git clone [https://github.com/oooosonuoooo/kali-cursor-master.git](https://github.com/oooosonuoooo/kali-cursor-master.git)
-
-# 2. Enter the directory
-cd kali-cursor-master
-
-# 3. Run the installer (Sets up permissions & dependencies)
-chmod +x install.sh
-./install.sh
