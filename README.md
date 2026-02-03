@@ -12,17 +12,19 @@
 
 ## 📸 Screenshots & Gallery
 
-| **Theme Creator** | **Theme Library** |
-|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/462e2808-8c64-43f5-8962-427cdd5faf2c" width="400" alt="Theme Creator Interface"> | <img src="https://github.com/user-attachments/assets/ac3e7838-14d0-4f52-baa4-a6d74bcedf6a" width="400" alt="Library Interface"> |
+A visual overview of the application's interface and features.
 
-<details>
-<summary><strong>View Full Application Preview</strong></summary>
+| **Theme Creator (Build Tab)** | **Theme Library (Manage Tab)** |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/462e2808-8c64-43f5-8962-427cdd5faf2c" alt="Theme Creator Interface" width="100%"> | <img src="https://github.com/user-attachments/assets/ac3e7838-14d0-4f52-baa4-a6d74bcedf6a" alt="Library Interface" width="100%"> |
+| **Build Interface - Selecting Files** | **Library Interface - Applying Themes** |
+
 <br>
-<img src="https://github.com/user-attachments/assets/d6db72c1-ef23-480f-bbbc-731d6eec9ddb" width="800" alt="Full App Screenshot">
-<br>
-<img src="https://github.com/user-attachments/assets/9d72b586-2174-4862-aaea-e520363d2025" width="800" alt="Mobile View">
-</details>
+
+| **Full Application View** | **Mobile/Compact View** |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/d6db72c1-ef23-480f-bbbc-731d6eec9ddb" alt="Full App Screenshot" width="100%"> | <img src="https://github.com/user-attachments/assets/9d72b586-2174-4862-aaea-e520363d2025" alt="Mobile View" width="100%"> |
+| **Complete GUI Overview** | **Responsive Layout on Smaller Screens** |
 
 ---
 
@@ -37,7 +39,6 @@ Traditionally, porting a cursor theme involves:
 **Kali Cursor Master** automates the entire pipeline. It serves as a GUI wrapper that handles binary conversion, hotspot calculation, permission management, and system integration.
 
 ---
-
 ## ✨ Key Features
 
 ### 🛡️ Self-Healing Engine
@@ -57,12 +58,3 @@ Precision matters. The app reads the binary metadata of the Windows file to find
 * Installs themes directly to the user space: `~/.icons/`.
 * Auto-generates a **Start Menu Shortcut** (Application Entry).
 * Updates the GNOME/XFCE registry immediately upon application.
-
----
-
-## 📦 Installation
-
-### Prerequisites
-* Kali Linux (or any Debian/Ubuntu-based distro).
-* Python 3.x (Pre-installed on Kali).
-* `sudo` access (for installing backend tools).
