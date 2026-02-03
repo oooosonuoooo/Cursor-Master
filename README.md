@@ -16,14 +16,14 @@ A visual overview of the application's interface and features.
 
 | **Theme Creator (Build Tab)** | **Theme Library (Manage Tab)** |
 |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/462e2808-8c64-43f5-8962-427cdd5faf2c" alt="Theme Creator Interface" width="100%"> | <img src="https://github.com/user-attachments/assets/ac3e7838-14d0-4f52-baa4-a6d74bcedf6a" alt="Library Interface" width="100%"> |
+| <img src="https://github.com/user-attachments/assets/462e2808-8c64-43f5-8962-427cdd5faf2c" alt="Theme Creator Interface" height="250px"> | <img src="https://github.com/user-attachments/assets/ac3e7838-14d0-4f52-baa4-a6d74bcedf6a" alt="Library Interface" height="250px"> |
 | **Build Interface - Selecting Files** | **Library Interface - Applying Themes** |
 
 <br>
 
 | **Full Application View** | **Mobile/Compact View** |
 |:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/d6db72c1-ef23-480f-bbbc-731d6eec9ddb" alt="Full App Screenshot" width="100%"> | <img src="https://github.com/user-attachments/assets/9d72b586-2174-4862-aaea-e520363d2025" alt="Mobile View" width="100%"> |
+| <img src="https://github.com/user-attachments/assets/d6db72c1-ef23-480f-bbbc-731d6eec9ddb" alt="Full App Screenshot" height="250px"> | <img src="https://github.com/user-attachments/assets/9d72b586-2174-4862-aaea-e520363d2025" alt="Mobile View" height="250px"> |
 | **Complete GUI Overview** | **Responsive Layout on Smaller Screens** |
 
 ---
@@ -39,6 +39,7 @@ Traditionally, porting a cursor theme involves:
 **Kali Cursor Master** automates the entire pipeline. It serves as a GUI wrapper that handles binary conversion, hotspot calculation, permission management, and system integration.
 
 ---
+
 ## ✨ Key Features
 
 ### 🛡️ Self-Healing Engine
@@ -58,3 +59,26 @@ Precision matters. The app reads the binary metadata of the Windows file to find
 * Installs themes directly to the user space: `~/.icons/`.
 * Auto-generates a **Start Menu Shortcut** (Application Entry).
 * Updates the GNOME/XFCE registry immediately upon application.
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+* Kali Linux (or any Debian/Ubuntu-based distro).
+* Python 3.x (Pre-installed on Kali).
+* `sudo` access (for installing backend tools).
+
+### Option 1: Quick Install (Git)
+Open your terminal and run:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/oooosonuoooo/kali-cursor-master.git](https://github.com/oooosonuoooo/kali-cursor-master.git)
+
+# 2. Enter the directory
+cd kali-cursor-master
+
+# 3. Run the installer (Sets up permissions & dependencies)
+chmod +x install.sh
+./install.sh
